@@ -1,7 +1,7 @@
 {
   "name": "atom-styleguide",
   "version": "1.0.0",
-  "description": "Browser-based styleguide show you all the UI components used in Atom.",
+  "description": "Browser-based styleguide show you all the UI components used in Atom",
   "author": "Adnan M.Sagar, PhD. <adnan@websemantics.ca>",
   "license": "MIT",
   "private": true,
