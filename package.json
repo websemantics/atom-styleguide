@@ -1,0 +1,56 @@
+{
+  "name": "atom-styleguide",
+  "version": "1.0.0",
+  "description": "Browser-based styleguide show you all the UI components used in Atom.",
+  "author": "Adnan M.Sagar, PhD. <adnan@websemantics.ca>",
+  "license": "MIT",
+  "private": true,
+  "main": "./src/index.js",
+  "keywords": [
+    "atom",
+    "styleguide",
+    "webpack",
+    "theme"
+  ],
+  "config": {
+    "deploy": {
+      "dist": "./dist/",
+      "name": "iAyeBot",
+      "email": "iayebot@websemantics.ca",
+      "branch": "master:gh-pages",
+      "message": "Deploy to gh-pages"
+    }
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.conf.js --env development",
+    "build": "webpack --config webpack.conf.js",
+    "watch": "webpack --config webpack.conf.js --watch --progress --profile --colors --display-error-details --display-cached",
+    "clean": "rimraf dist",
+    "deploy": "cd $npm_package_config_deploy_dist && git push --force --quiet \"https://${GH_TOKEN}@${GH_REF}\" ${npm_package_config_deploy_branch} > /dev/null 2>&1 ",
+    "predeploy": "cd $npm_package_config_deploy_dist && git init && git config user.name $npm_package_config_deploy_name && git config user.email $npm_package_config_deploy_email && git add -A . && git commit -am \"$npm_package_config_deploy_message\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "atom-ui": "^0.4.1",
+    "one-dark-syntax": "atom/one-dark-syntax",
+    "one-dark-ui": "atom/one-dark-ui",
+    "styleguide": "atom/styleguide"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.10.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websemantics/atom-styleguide"
+  },
+  "bugs": {
+    "url": "https://github.com/websemantics/atom-styleguide/issues"
+  }
+}
