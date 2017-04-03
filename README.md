@@ -42,7 +42,7 @@ Start development server,
 npm run start 
 ```
 
-## Credits
+## Projects Used
 
 - [Atom](https://github.com/atom/atom) - The hackable text editor
 - [Atom Styleguide](https://github.com/atom/styleguide) - A package to exercise all the UI components.

@@ -1,7 +1,5 @@
 script: npm run deploy
 language: node_js
-node_js:
-- '7'
 before_script:
 - npm run build
 env:
