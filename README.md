@@ -11,10 +11,10 @@
 ```
 > Browser-based styleguide to show you all the UI components used in [Atom](https://atom.io/).
 
-[![Build Status](https://travis-ci.org/websemantics/atom-styleguide?branch=master)](https://travis-ci.org/websemantics/atom-styleguide) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/websemantics/atom-styleguide/master/LICENSE.md) [![GitHub forks](https://img.shields.io/github/forks/websemantics/atom-styleguide)](https://github.com/websemantics/atom-styleguide/network) [![GitHub stars](https://img.shields.io/github/stars/websemantics/atom-styleguide)](https://github.com/websemantics/atom-styleguide/stargazers)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/websemantics/atom-styleguide)](http://isitmaintained.com/project/websemantics/atom-styleguide "Percentage of issues still open")
+[![Build Status](https://travis-ci.org/websemantics/atom-styleguide.svg?branch=master)](https://travis-ci.org/websemantics/atom-styleguide) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/websemantics/atom-styleguide/master/LICENSE.md) [![GitHub forks](https://img.shields.io/github/forks/websemantics/atom-styleguide.svg)](https://github.com/websemantics/atom-styleguide/network) [![GitHub stars](https://img.shields.io/github/stars/websemantics/atom-styleguide.svg)](https://github.com/websemantics/atom-styleguide/stargazers)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/websemantics/atom-styleguide.svg)](http://isitmaintained.com/project/websemantics/atom-styleguide "Percentage of issues still open")
 
-#### [Try it](http://websemantics.github.io/atom-styleguide/)
+#### [View it](http://websemantics.github.io/atom-styleguide/)
 
 ![Preview](https://cloud.githubusercontent.com/assets/378023/15767543/ccecf9bc-2983-11e6-9c5e-d228d39f52b0.png)
 
