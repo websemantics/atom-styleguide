@@ -31,7 +31,7 @@ cd atom-styleguide
 npm install
 ```
 
-Build or Watch to `dist` folder,
+Build / Watch to `dist` folder,
 ``` bash
 npm run build 
 npm run watch 
